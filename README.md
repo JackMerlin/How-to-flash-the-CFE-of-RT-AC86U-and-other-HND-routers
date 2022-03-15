@@ -43,6 +43,7 @@ This is not a detailed guide, but provides an accurate way. stop use the old ide
 To be clear this is not intended to modify the CFE, because the CFE of old platforms (such as RT-AC68U) includes the factory nvram variables in plaintext, so some people always refer to modifying the factory nvram variable as "modifying the CFE". let me make it clear, CFE is a bootloader, not text data. the CFE partition of Broadcom's new architecture does not contain factory nvram, but this greatly reduces the risk of flashing CFE, no one needs to flash the CFE just to modify variables.
 
 
+**-- END --**
 
 
 # Translator's Notes
@@ -54,6 +55,10 @@ Original guide: https://www.bigxd.com/2021/04/976.html
 Translator: https://github.com/JackMerlin
 
 March 15, 2022
+
+## Languages
+
+[Chinese 中文](https://github.com/JackMerlin/How-to-flash-the-CFE-of-RT-AC86U-and-other-HND-routers/blob/main/README-zh_CN.md)  |  [English](https://github.com/JackMerlin/How-to-flash-the-CFE-of-RT-AC86U-and-other-HND-routers/blob/main/README.md)  |  [Add more](https://github.com/JackMerlin/How-to-flash-the-CFE-of-RT-AC86U-and-other-HND-routers/new/main)
 
 ## What is HND platform?
 
@@ -89,6 +94,7 @@ Yes it is possible, since this partition is usually only available for manufactu
 
 
 # License
+
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 [![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
